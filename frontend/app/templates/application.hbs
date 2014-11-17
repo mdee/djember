@@ -1,0 +1,23 @@
+<header class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      {{#link-to 'index' class="navbar-brand"}}Brand{{/link-to}}
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      {{#if controllers.auth.hasValidToken}}
+      <button type="button" class="btn btn-default navbar-btn" {{action 'logout'}}>Sign out</button>
+      {{else}}
+      {{#link-to 'auth' class="btn btn-default navbar-btn"}}Sign in{{/link-to}}
+      {{/if}}
+      <ul class="nav navbar-nav">
+      </ul>
+    </div>
+  </div>
+</header>
+{{outlet}}
