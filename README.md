@@ -3,7 +3,7 @@ djember
 
 ember-cli + django
 
-### Backend setup
+## Backend setup
 * Environment
     * `mkvirtualenv backend`
     * `pip install -r requirements.txt`
@@ -18,6 +18,15 @@ ember-cli + django
     * `./manage.py syncdb`
     * `./manage.py migrate`
 
-### Frontend setup
+## Frontend setup
 * Environment
     * [Install the prerequisites](http://www.ember-cli.com/#getting-started)
+
+## Run
+* Backend
+    * `./manage.py runserver`
+* Frontend
+    * Built-in dev server
+        * `ember server --proxy=http://127.0.0.1:8000/api`
+    * Build and push to server
+        * `ember build --environment=development`
