@@ -19,3 +19,5 @@ ember-cli + django
     * `./manage.py migrate`
 
 ### Frontend setup
+* Environment
+    * [Install the prerequisites](http://www.ember-cli.com/#getting-started)
