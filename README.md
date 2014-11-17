@@ -21,6 +21,8 @@ ember-cli + django
 ## Frontend setup
 * Environment
     * [Install the prerequisites](http://www.ember-cli.com/#getting-started)
+* Dependencies
+    * `bower install --save-dev bootstrap`
 
 ## Run
 * Backend
