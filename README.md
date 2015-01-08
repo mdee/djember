@@ -23,7 +23,6 @@ This is a skeleton app which wraps up an [Ember CLI](http://www.ember-cli.com/)(
     * [Install the prerequisites](http://www.ember-cli.com/#getting-started)
 * Dependencies
     * `bower install --save-dev bootstrap`
-    * 
 
 ## Run
 * Backend
