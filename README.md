@@ -1,7 +1,7 @@
 djember
 =======
 
-ember-cli + django
+This is a skeleton app which wraps up an [Ember CLI](http://www.ember-cli.com/)(v0.13) frontend and a [Django](https://www.djangoproject.com/)(v1.7.1) backend. The Ember CLI app includes an token-based authentication controller, handled on the backend through [Django REST Framework](http://www.django-rest-framework.org/).
 
 ## Backend setup
 * Environment
@@ -23,6 +23,7 @@ ember-cli + django
     * [Install the prerequisites](http://www.ember-cli.com/#getting-started)
 * Dependencies
     * `bower install --save-dev bootstrap`
+    * 
 
 ## Run
 * Backend
